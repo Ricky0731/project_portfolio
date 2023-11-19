@@ -16,7 +16,7 @@ Welcome to my Portfolio Project! This project showcases my skills and experience
 - HTML5
 - CSS3
 - JavaScript
-- Typed.js *(mention any additional libraries or frameworks used)*
+- Typed.js 
 
 ## Features
 1. **Typing Animation:** Engage users with a dynamic typing animation describing my skills and roles.
@@ -41,4 +41,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 Feel free to reach out to me if you have any questions or suggestions.
 - GitHub: [ricky0731](https://github.com/ricky0731)
-- Email: ricky0731@example.com
