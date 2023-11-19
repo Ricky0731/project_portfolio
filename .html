@@ -1,0 +1,347 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DevFolio Website - Coding Power</title>
+
+    <!-- typed.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- scroll to top button -->
+    <button class="scrollbtn" id="btn" type="button" onclick="scrolltoTop()"><i class="fa fa-arrow-up"></i></button>
+
+    <!-- navbar code start here -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#home">DevFolio</a>
+        </div>
+        <ul class="menu" id="menu">
+            <li><a href="#home" onclick="menu()">Home</a></li>
+            <li><a href="#about" onclick="menu()">About</a></li>
+            <li><a href="#services" onclick="menu()">Services</a></li>
+            <li><a href="#portfolio" onclick="menu()">PortFolio</a></li>
+            <li><a href="#blog" onclick="menu()">Blog</a></li>
+            <li><a href="#contact" onclick="menu()">Contact</a></li>
+        </ul>
+        <div class="menu-btn" onclick="menu()"><i class="fa fa-bars"></i></div>
+    </nav>
+
+    <!-- home section start here -->
+    <div class="home" id="home">
+        <div class="home-content">
+            <h1 class="name">I am Sai tulasi</h1>
+            <p><span class="typing"></span></p>
+        </div>
+    </div>
+
+    <!-- about section start here -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="info">
+                    <div class="personal">
+                        <div class="photo">
+                            <img src="https://res.cloudinary.com/dnubhj5wk/image/upload/c_thumb,w_200,g_face/v1700074935/ricky__ixazbl.jpg" alt="">
+                        </div>
+                        <div class="name">
+                            <p><span>Name:</span> Sai Tulasi</p>
+                            <p><span>Profile:</span> Full Stack Developer</p>
+                            <p><span>Email:</span> saitulasi0731@gmail.com</p>
+                            <p><span>Phone:</span>7893101453</p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h4>Skills</h4>
+                        <div class="skill">
+                            <span>HTML</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-line"><span class="html"></span></div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-line"><span class="css"></span></div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <span>45%</span>
+                        </div>
+                        <div class="progress-line"><span class="javascript"></span></div>
+                        <div class="skill">
+                            <span>Python</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-line"><span class="php"></span></div>
+                    </div>
+                </div>
+                <div class="aboutme">
+                    <h5>About me</h5>
+                    <p>Hello! I'm Sai Tulasi, a third-year B.Tech student and current trainee at NxtWave. Specializing in front-end development, I'm passionate about crafting user-friendly interfaces. Excitedly working towards completing my full-stack journey by April 2024, I aim to expand my skills to back-end technologies. Let's connect and explore opportunities to build exciting projects together!</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start here -->
+    <section class="services" id="services">
+        <div class="container">
+            <h3 class="title">Services</h3>
+            <div class="line"></div>
+            <div class="services-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-code"></i></div>
+                        <div class="card-title">Web Development</div>
+                        <p>Web developer adept in HTML, CSS, and JavaScript. Passionate about crafting dynamic and user-friendly web solutions with clean and efficient code.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-mobile"></i></div>
+                        <div class="card-title">App Development</div>
+                        <p>Experienced app developer skilled in building robust and user-centric mobile applications. Proficient in languages like Java and Swift, I bring a commitment to delivering seamless and innovative app experiences.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                        <div class="card-title">Web Design</div>
+                        <p>Versatile web designer skilled in Adobe XD and Figma, dedicated to crafting visually appealing and user-centric websites.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-laptop"></i></div>
+                        <div class="card-title">Responsive Design</div>
+                        <p>Responsive design expert ensuring seamless user experiences across devices. Proficient in CSS and layout techniques for adaptive websites.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-line-chart"></i></div>
+                        <div class="card-title">Advertising</div>
+                        <p>Strategic advertising pro crafting impactful campaigns, adept at optimizing digital ads for results.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-wordpress"></i></div>
+                        <div class="card-title">Wordpress</div>
+                        <p>WordPress expert skilled in theme customization and plugin integration, ensuring seamless and visually stunning websites.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section start here -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h3 class="title">Portfolio</h3>
+            <div class="line"></div>
+            <div class="portfolio-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="https://img.freepik.com/free-photo/indian-food-assortment-top-view_23-2148747717.jpg?size=626&ext=jpg&uid=R125479433&ga=GA1.1.795200970.1700070511&semt=ais" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 1</h3>
+                            <p><span class="category">Receipe webpage</span> / 12 march 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="https://img.freepik.com/free-vector/gradient-npl-illustration_52683-80462.jpg?size=626&ext=jpg&uid=R125479433&ga=GA1.1.795200970.1700070511&semt=ais" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 2</h3>
+                            <p><span class="category">ChatBotDev</span> / 20 june 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="https://img.freepik.com/free-psd/world-graphics-day-landing-page-template_23-2148891211.jpg?size=626&ext=jpg&uid=R125479433&ga=GA1.1.795200970.1700070511&semt=ais" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 3</h3>
+                            <p><span class="category">portfolio</span> / 16 july 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="https://img.freepik.com/premium-vector/online-movie-streaming-illustration-background_188398-506.jpg?size=626&ext=jpg&uid=R125479433&ga=GA1.1.795200970.1700070511&semt=ais" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 4</h3>
+                            <p><span class="category">Web Design</span> / 25 August 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="https://img.freepik.com/free-vector/podcast-landing-page-template-illustrated_23-2148772920.jpg?size=626&ext=jpg&uid=R125479433&ga=GA1.1.795200970.1700070511&semt=ais" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 5</h3>
+                            <p><span class="category">Static Podcast site</span> / 12 september 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="https://img.freepik.com/free-vector/flat-hotel-booking-concept_23-2148152316.jpg?size=626&ext=jpg&uid=R125479433&ga=GA1.1.795200970.1700070511&semt=ais" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 6</h3>
+                            <p><span class="category">Static Tourism site</span> / 21st jan 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section start here -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h3 class="title">Blog</h3>
+            <div class="line"></div>
+            <div class="blog-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="https://img.freepik.com/free-photo/robot-handshake-human-background-futuristic-digital-age_53876-129770.jpg?size=626&ext=jpg&uid=R125479433&ga=GA1.1.795200970.1700070511&semt=sph" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>AI Blog</h3>
+                            <div class="category">AI</div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quos tenetur magni cumque corporis mollitia!</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="images/testimonial-2.jpg" alt="">
+                                <p>sai tulasi</p>
+                            </div>
+                            <div class="date">
+                                <p>15 Aug 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="https://img.freepik.com/free-vector/organic-flat-blog-post-illustration-with-people_23-2148955260.jpg?size=626&ext=jpg&uid=R125479433&ga=GA1.1.795200970.1700070511&semt=ais" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Web Design Blog</h3>
+                            <div class="category">Web Design</div>
+                            <p>Discover my journey and insights into portfolio development on my latest blog, where I share tips and strategies for creating an impactful online presence.</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="images/testimonial-2.jpg" alt="">
+                                <p>sai tulasi</p>
+                            </div>
+                            <div class="date">
+                                <p>15 Aug 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                 <div class="card">
+    <div class="card-content">
+        <div class="photo">
+            <img src="images/post-3.jpg" alt="">
+        </div>
+        <div class="info">
+            <h3>Web Design Blog</h3>
+            <div class="category">Web Design</div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quos tenetur magni cumque corporis mollitia!</p>
+        </div>
+        <div class="author">
+            <div class="name">
+                <img src="images/testimonial-2.jpg" alt="">
+                <p>Morgan Freeman</p>
+            </div>
+            <div class="date">
+                <p>15 Aug 2020</p>
+            </div>
+        </div>
+    </div>
+</div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start here -->
+    <section class="contact" id="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="contact-content">
+                <div class="message">
+                    <form>
+                        <h3 class="heading">Send Message us</h3>
+                        <div class="line"></div>
+                        <div class="field">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="field">
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="field">
+                            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="gettouch">
+                    <h3 class="heading">Get in Touch</h3>
+                    <div class="line"></div>
+                    <p>Let's collaborate! Reach out and let's discuss how we can bring your ideas to life.
+                        Have a project in mind? Contact me to explore possibilities and start building together.
+                        Excited to connect! Drop me a message, and let's chat about your project or any tech-related discussions.</p>
+                    <div class="info"><i class="fa fa-map-marker"></i>vel tech university,Chennai</div>
+                    <div class="info"><i class="fa fa-phone"></i>7893101453</div>
+                    <div class="info"><i class="fa fa-envelope"></i>saitulasi0731@gmail.com</div>
+                    <div class="social">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-youtube-play"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>© Copyright DevFolio. All Rights Reserved</p>
+            <p>Designed by <a href="https://bootstrapmade.com/">Sai tulasi</p>
+        </footer>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
